@@ -1,0 +1,29 @@
+{
+  "name": "polls",
+  "version": "1.0.0",
+  "description": "projeto feito na nlw da rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/http/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagomotaPE/polls.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagomotaPE/polls/issues"
+  },
+  "homepage": "https://github.com/thiagomotaPE/polls#readme",
+  "dependencies": {
+    "@prisma/client": "^5.9.1",
+    "@types/node": "^20.11.16",
+    "fastify": "^4.26.0",
+    "prisma": "^5.9.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "zod": "^3.22.4"
+  }
+}

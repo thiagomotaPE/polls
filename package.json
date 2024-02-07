@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/thiagomotaPE/polls#readme",
   "dependencies": {
+    "@fastify/cookie": "^9.3.1",
     "@prisma/client": "^5.9.1",
     "@types/node": "^20.11.16",
     "fastify": "^4.26.0",
